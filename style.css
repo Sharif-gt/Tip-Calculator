@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: sans-serif;
+}
+
+button {
+  background-color: #4caf50;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  padding-block: 10px;
+  font-size: 1.2rem;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 11px 11px 22px #908787;
+  margin: 100px auto;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.amount {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+#bill {
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#tip {
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#total-bill {
+  font-size: 1.3rem;
+}
