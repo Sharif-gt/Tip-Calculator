@@ -62,4 +62,5 @@ p {
 
 #total-bill {
   font-size: 1.3rem;
+  padding-block: 5px;
 }
